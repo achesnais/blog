@@ -1,12 +1,17 @@
+$purple: #38095a;
+$grey: $purple;
+$white: #e8e8e8;
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Alegreya';
+    color: $white;
 }
 
 body {
-    color: #333;
-    background-color: #f2f2f2;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 16px;
+    background-color: $purple;
+    color: $white;
 }
 
 .container {
@@ -24,39 +29,12 @@ body {
 }
 
 .navbar-default {
-    background-color: #428bca;
     border: none;
 }
 
 .navbar-default .navbar-brand {
-    color: #fff;
     font-family: 'Alegreya';
-}
-
-.navbar-default .navbar-brand:hover {
-    color: #fff;
-}
-
-.navbar-default .navbar-nav li a {
-    color: #fff;
-}
-
-.navbar-default .navbar-nav li a:hover {
-    color: #fff;
-    background-color: #3d80ba;
-}
-
-.navbar-default .navbar-nav .active a {
-    color: #fff;
-    background-color: #3d80ba;
-}
-
-.navbar-default .navbar-toggle:hover{
-    background-color: #3d80ba;
-}
-
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: #fff;
+    color: $purple;
 }
 
 #sidebar {
@@ -65,9 +43,20 @@ body {
 }
 
 #content {
-    background-color: #fff;
+
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Alegreya';
+        color: inherit;
+    }
+
+    background-color: $white;
+    color: $grey;
     border-radius: 3px;
     box-shadow: 0 0 0 0,0 6px 12px rgba(34,34,34,0.1);
+
+    blockquote {
+        border-left-color: $grey;
+    }
 }
 
 #content img {
@@ -76,6 +65,7 @@ body {
 }
 
 footer {
+
     font-size: 14px;
     text-align: center;
     padding-top: 75px;
@@ -127,7 +117,7 @@ pre code {
 }
 
 code {
-    color: #428bca;
+
 }
 
 pre, code, .hljs {

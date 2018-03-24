@@ -11,3 +11,6 @@ pom.xml.asc
 .lein-failures
 /resources/public/
 **/.DS_Store
+**/.sass-cache
+resources/templates/themes/personalised/css/screen.css
+resources/templates/themes/personalised/css/screen.css.map
