@@ -1,15 +1,17 @@
 $purple: #38095a;
 $grey: $purple;
 $white: #e8e8e8;
+$header-fonts: 'Lora', 'Alegreya';
+$body-fonts: 'Lato', Arial, sans-serif;
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Alegreya';
+    font-family: $header-fonts;
     color: $white;
 }
 
 body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 16px;
+    font-family: $body-fonts;
+    font-size: 17px;
     background-color: $purple;
     color: $white;
 }
@@ -33,7 +35,7 @@ body {
 }
 
 .navbar-default .navbar-brand {
-    font-family: 'Alegreya';
+    font-family: $header-fonts;
     color: $purple;
 }
 
@@ -45,12 +47,13 @@ body {
 #content {
 
     h1, h2, h3, h4, h5, h6 {
-        font-family: 'Alegreya';
+        font-family: $header-fonts;
         color: inherit;
     }
 
     background-color: $white;
     color: $grey;
+    font-size: 19px;
     border-radius: 3px;
     box-shadow: 0 0 0 0,0 6px 12px rgba(34,34,34,0.1);
 
